@@ -1,9 +1,9 @@
 @font-face {
-  font-family: titulos;
+  font-family: "titulos";
   src: url(/fuentes/IndieFlower-Regular.ttf);
 }
 @font-face {
-  font-family: bangers;
+  font-family: "bangers";
   src: url(/fuentes/Bangers-Regular.ttf);
 }
 @font-face {
