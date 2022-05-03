@@ -1,0 +1,837 @@
+@media screen and (max-width: 320px) { 
+    .navbar .shop {
+        display: none;
+    }
+
+    .carousel-item img{
+        height: 40%;
+    }
+
+    .inicioindex{
+        margin-top: 30px;
+    }
+
+    .marketgrid {
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: 6% 15% 15% 15% 15% 15% 19%;
+        text-align: center;
+        justify-items: center;
+      }
+      
+.marketmain {
+    margin-top: 90px;
+    grid-column: 1/6;
+    grid-row: 1;
+  }
+  .marketmain h2 {
+    font-family: "bangers";
+  }
+  .marketmain p {
+    font-size: 20px;
+  }
+  
+  .combo1 {
+    grid-column: 1/6;
+    grid-row: 2;
+  }
+  
+  .combo2 {
+    grid-column: 1/6;
+    grid-row: 3;
+  }
+  
+  .combo3 {
+    grid-column: 1/6;
+    grid-row: 4;
+  }
+  
+  .combo4 {
+    grid-column: 1/6;
+    grid-row: 5;
+  }
+  
+  .combo5 {
+    grid-column: 1/6;
+    grid-row: 6;
+  }
+  
+  .combo6 {
+    grid-column: 1/6;
+    grid-row: 7;
+  }
+
+  .tarjeta__expo, .tarjeta__expo6, .tarjeta__expo5, .tarjeta__expo4, .tarjeta__expo3, .tarjeta__expo2 {
+    width: 80%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f1eee8;
+    border-radius: 10%;
+  }
+  .tarjeta__img {
+    width: 200px;
+    height: 180px;
+    border-radius: 20%;
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .principal {
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 3px rgb(215, 220, 228);
+    border-radius: 2%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+  }
+  
+  .nosotros-encabezado h2{
+      font-family: "titulazo";
+  }
+  .tarjeta__nosotros1 {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: rgb(215, 220, 228);
+    border-radius: 10%;
+    font-family: "testo";
+    font-size: 20px;
+  }
+  
+  .tarjeta__fotos {
+    display: block;
+    justify-content: space-around;
+  }
+  .tarjeta__fotos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 25px;
+  }
+  .contactogrid {
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 15% 25% 20% 25% 15%;
+    grid-template-rows: 5% 30% 30% 35%;
+    margin-top: 100px;
+  }
+
+  .section-reservas {
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .datos-reservas {
+    grid-column: 1/5;
+    grid-row: 2;
+    margin: 10px;
+    background-color: rgb(195, 195, 195);
+    color: #0b0038;
+    border-radius: 7%;
+  }
+  .maps {
+    grid-column: 1/5;
+    grid-row: 3;
+    margin-top: 90px;
+  }
+  .section-contact {
+    grid-row: 4;
+    grid-column: 1/5;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .section-contact h2{
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .form-reservas{
+      font-size: 15px;
+      margin-left: 30px;
+      font-size: 15px;
+  }
+
+
+    .footer-container{
+        display: grid;
+        height: 100px;
+        align-items: center;
+        background-color: whitesmoke;
+        color: rgb(0, 0, 0);
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(1,1fr);
+        border-radius: 15%;
+    }
+    
+    .footer-container .copyright{
+        display: flex;
+        flex-direction: column;
+        grid-column: 1/5; 
+        grid-row: 1/2;
+    }
+    
+    .footer-container .copyright h4{
+        font-size: 10px;
+        margin-left: 15px;
+    }
+    
+    .footer-container .seguime{
+        display: none;   
+    }
+    
+    
+    .footer-container .redes{
+        grid-column: 5/7; 
+        grid-row: 1/2;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .footer-container .redes a{
+        display: flex;
+        flex-direction: row;        
+        height: 20px;
+    }
+
+
+
+
+
+ }
+
+ @media screen and (min-width: 321px) and (max-width: 480px){ 
+    .navbar .shop {
+        display: none;
+    }
+
+    .carousel-item img{
+        height: 40%;
+    }
+
+    .inicioindex{
+        margin-top: 30px;
+    }
+
+    .marketgrid {
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: 6% 15% 15% 15% 15% 15% 19%;
+        text-align: center;
+        justify-items: center;
+      }
+      
+.marketmain {
+    margin-top: 90px;
+    grid-column: 1/6;
+    grid-row: 1;
+  }
+  .marketmain h2 {
+    font-family: "bangers";
+  }
+  .marketmain p {
+    font-size: 20px;
+  }
+  
+  .combo1 {
+    grid-column: 1/6;
+    grid-row: 2;
+  }
+  
+  .combo2 {
+    grid-column: 1/6;
+    grid-row: 3;
+  }
+  
+  .combo3 {
+    grid-column: 1/6;
+    grid-row: 4;
+  }
+  
+  .combo4 {
+    grid-column: 1/6;
+    grid-row: 5;
+  }
+  
+  .combo5 {
+    grid-column: 1/6;
+    grid-row: 6;
+  }
+  
+  .combo6 {
+    grid-column: 1/6;
+    grid-row: 7;
+  }
+
+  .tarjeta__expo, .tarjeta__expo6, .tarjeta__expo5, .tarjeta__expo4, .tarjeta__expo3, .tarjeta__expo2 {
+    width: 80%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f1eee8;
+    border-radius: 10%;
+  }
+  .tarjeta__img {
+    width: 200px;
+    height: 180px;
+    border-radius: 20%;
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .principal {
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 3px rgb(215, 220, 228);
+    border-radius: 2%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+  }
+  
+  .nosotros-encabezado h2{
+      font-family: "titulazo";
+  }
+  .tarjeta__nosotros1 {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: rgb(215, 220, 228);
+    border-radius: 10%;
+    font-family: "testo";
+    font-size: 20px;
+  }
+  
+  .tarjeta__fotos {
+    display: block;
+    justify-content: space-around;
+  }
+  .tarjeta__fotos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 25px;
+  }
+  .contactogrid {
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 15% 25% 20% 25% 15%;
+    grid-template-rows: 5% 30% 30% 35%;
+    margin-top: 100px;
+  }
+
+  .section-reservas {
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .datos-reservas {
+    grid-column: 1/5;
+    grid-row: 2;
+    margin: 10px;
+    background-color: rgb(195, 195, 195);
+    color: #0b0038;
+    border-radius: 7%;
+  }
+  .maps {
+    grid-column: 1/5;
+    grid-row: 3;
+    margin-top: 90px;
+  }
+  .section-contact {
+    grid-row: 4;
+    grid-column: 1/5;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .section-contact h2{
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .form-reservas{
+      font-size: 15px;
+      margin-left: 30px;
+      font-size: 15px;
+  }
+
+
+    .footer-container{
+        display: grid;
+        height: 100px;
+        align-items: center;
+        background-color: whitesmoke;
+        color: rgb(0, 0, 0);
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(1,1fr);
+        border-radius: 15%;
+    }
+    
+    .footer-container .copyright{
+        display: flex;
+        flex-direction: column;
+        grid-column: 1/5; 
+        grid-row: 1/2;
+    }
+    
+    .footer-container .copyright h4{
+        font-size: 10px;
+        margin-left: 15px;
+    }
+    
+    .footer-container .seguime{
+        display: none;   
+    }
+    
+    
+    .footer-container .redes{
+        grid-column: 5/7; 
+        grid-row: 1/2;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .footer-container .redes a{
+        display: flex;
+        flex-direction: row;        
+        height: 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px){
+    .navbar .shop {
+        display: none;
+    }
+
+    .carousel-item img{
+        height: 40%;
+    }
+
+    .inicioindex{
+        margin-top: 30px;
+    }
+
+    .marketgrid {
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: 6% 15% 15% 15% 15% 15% 19%;
+        text-align: center;
+        justify-items: center;
+      }
+      
+.marketmain {
+    margin-top: 90px;
+    grid-column: 1/6;
+    grid-row: 1;
+  }
+  .marketmain h2 {
+    font-family: "bangers";
+  }
+  .marketmain p {
+    font-size: 20px;
+  }
+  
+  .combo1 {
+    grid-column: 1/6;
+    grid-row: 2;
+  }
+  
+  .combo2 {
+    grid-column: 1/6;
+    grid-row: 3;
+  }
+  
+  .combo3 {
+    grid-column: 1/6;
+    grid-row: 4;
+  }
+  
+  .combo4 {
+    grid-column: 1/6;
+    grid-row: 5;
+  }
+  
+  .combo5 {
+    grid-column: 1/6;
+    grid-row: 6;
+  }
+  
+  .combo6 {
+    grid-column: 1/6;
+    grid-row: 7;
+  }
+
+  .tarjeta__expo, .tarjeta__expo6, .tarjeta__expo5, .tarjeta__expo4, .tarjeta__expo3, .tarjeta__expo2 {
+    width: 80%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f1eee8;
+    border-radius: 10%;
+  }
+  .tarjeta__img {
+    width: 200px;
+    height: 180px;
+    border-radius: 20%;
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .principal {
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 3px rgb(215, 220, 228);
+    border-radius: 2%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+  }
+  
+  .nosotros-encabezado h2{
+      font-family: "titulazo";
+  }
+  .tarjeta__nosotros1 {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: rgb(215, 220, 228);
+    border-radius: 10%;
+    font-family: "testo";
+    font-size: 20px;
+  }
+  
+  .tarjeta__fotos {
+    display: block;
+    justify-content: space-around;
+  }
+  .tarjeta__fotos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 25px;
+  }
+  .contactogrid {
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 15% 25% 20% 25% 15%;
+    grid-template-rows: 5% 30% 30% 35%;
+    margin-top: 100px;
+  }
+
+  .section-reservas {
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .datos-reservas {
+    grid-column: 1/5;
+    grid-row: 2;
+    margin: 10px;
+    background-color: rgb(195, 195, 195);
+    color: #0b0038;
+    border-radius: 7%;
+  }
+  .maps {
+    grid-column: 1/5;
+    grid-row: 3;
+    margin-top: 90px;
+  }
+  .section-contact {
+    grid-row: 4;
+    grid-column: 1/5;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .section-contact h2{
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .form-reservas{
+      font-size: 15px;
+      margin-left: 30px;
+      font-size: 15px;
+  }
+
+
+    .footer-container{
+        display: grid;
+        height: 100px;
+        align-items: center;
+        background-color: whitesmoke;
+        color: rgb(0, 0, 0);
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(1,1fr);
+        border-radius: 15%;
+    }
+    
+    .footer-container .copyright{
+        display: flex;
+        flex-direction: column;
+        grid-column: 1/5; 
+        grid-row: 1/2;
+    }
+    
+    .footer-container .copyright h4{
+        font-size: 10px;
+        margin-left: 15px;
+    }
+    
+    .footer-container .seguime{
+        display: none;   
+    }
+    
+    
+    .footer-container .redes{
+        grid-column: 5/7; 
+        grid-row: 1/2;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .footer-container .redes a{
+        display: flex;
+        flex-direction: row;        
+        height: 20px;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .navbar .shop {
+        display: none;
+    }
+
+    .carousel-item img{
+        height: 40%;
+    }
+
+    .inicioindex{
+        margin-top: 30px;
+    }
+
+    .marketgrid {
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: 6% 15% 15% 15% 15% 15% 19%;
+        text-align: center;
+        justify-items: center;
+      }
+      
+.marketmain {
+    margin-top: 90px;
+    grid-column: 1/6;
+    grid-row: 1;
+  }
+  .marketmain h2 {
+    font-family: "bangers";
+  }
+  .marketmain p {
+    font-size: 20px;
+  }
+  
+  .combo1 {
+    grid-column: 1/6;
+    grid-row: 2;
+  }
+  
+  .combo2 {
+    grid-column: 1/6;
+    grid-row: 3;
+  }
+  
+  .combo3 {
+    grid-column: 1/6;
+    grid-row: 4;
+  }
+  
+  .combo4 {
+    grid-column: 1/6;
+    grid-row: 5;
+  }
+  
+  .combo5 {
+    grid-column: 1/6;
+    grid-row: 6;
+  }
+  
+  .combo6 {
+    grid-column: 1/6;
+    grid-row: 7;
+  }
+
+  .tarjeta__expo, .tarjeta__expo6, .tarjeta__expo5, .tarjeta__expo4, .tarjeta__expo3, .tarjeta__expo2 {
+    width: 80%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f1eee8;
+    border-radius: 10%;
+  }
+  .tarjeta__img {
+    width: 200px;
+    height: 180px;
+    border-radius: 20%;
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .principal {
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 3px rgb(215, 220, 228);
+    border-radius: 2%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+  }
+  
+  .nosotros-encabezado h2{
+      font-family: "titulazo";
+  }
+  .tarjeta__nosotros1 {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: rgb(215, 220, 228);
+    border-radius: 10%;
+    font-family: "testo";
+    font-size: 20px;
+  }
+  
+  .tarjeta__fotos {
+    display: block;
+    justify-content: space-around;
+  }
+  .tarjeta__fotos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 25px;
+  }
+  .contactogrid {
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 15% 25% 20% 25% 15%;
+    grid-template-rows: 5% 30% 30% 35%;
+    margin-top: 100px;
+  }
+
+  .section-reservas {
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .datos-reservas {
+    grid-column: 1/5;
+    grid-row: 2;
+    margin: 10px;
+    background-color: rgb(195, 195, 195);
+    color: #0b0038;
+    border-radius: 7%;
+  }
+  .maps {
+    grid-column: 1/5;
+    grid-row: 3;
+    margin-top: 90px;
+  }
+  .section-contact {
+    grid-row: 4;
+    grid-column: 1/5;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .section-contact h2{
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .form-reservas{
+      font-size: 15px;
+      margin-left: 30px;
+      font-size: 15px;
+  }
+
+
+    .footer-container{
+        display: grid;
+        height: 100px;
+        align-items: center;
+        background-color: whitesmoke;
+        color: rgb(0, 0, 0);
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(1,1fr);
+        border-radius: 15%;
+    }
+    
+    .footer-container .copyright{
+        display: flex;
+        flex-direction: column;
+        grid-column: 1/5; 
+        grid-row: 1/2;
+    }
+    
+    .footer-container .copyright h4{
+        font-size: 10px;
+        margin-left: 15px;
+    }
+    
+    .footer-container .seguime{
+        display: none;   
+    }
+    
+    
+    .footer-container .redes{
+        grid-column: 5/7; 
+        grid-row: 1/2;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .footer-container .redes a{
+        display: flex;
+        flex-direction: row;        
+        height: 20px;
+    }
+
+}
+

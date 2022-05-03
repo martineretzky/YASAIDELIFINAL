@@ -1,0 +1,30 @@
+.principal{
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin: 80px 40px;
+    border: solid 3px rgb(215, 220, 228);
+    border-radius: 2%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+.tarjeta__nosotros1{
+    width: 70%;
+    margin: 50px auto;
+    padding: 15px;
+    background-color: rgb(215, 220, 228);
+    border-radius: 10%;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.tarjeta__fotos{
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;}
+}
