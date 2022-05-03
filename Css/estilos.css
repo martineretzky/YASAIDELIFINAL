@@ -3,7 +3,7 @@
   src: url(../fuentes/IndieFlower-Regular.ttf);
 }
 @font-face {
-  font-family: "bangers";
+  font-family: bangers;
   src: url(../fuentes/Bangers-Regular.ttf);
 }
 @font-face {
@@ -33,7 +33,7 @@
   grid-row: 1;
 }
 .marketmain h2 {
-  font-family: "bangers";
+  font-family: bangers;
 }
 .marketmain p {
   font-size: 20px;
@@ -90,7 +90,7 @@
   font-size: 24px;
   color: rgb(17, 0, 86);
   font-weight: 900;
-  font-family: "titulos";
+  font-family: titulos;
 }
 
 .tarjeta__bajada {
@@ -109,10 +109,10 @@
   margin-top: 100px;
 }
 .contactogrid h1 {
-  font-family: "titulos";
+  font-family: titulos;
 }
 .contactogrid h2 {
-  font-family: "titulos";
+  font-family: titulos;
 }
 .section-reservas {
   grid-column: 2/5;
@@ -197,7 +197,7 @@
 .carruselfoto {
   font-size: 90px;
   color: rgb(0, 0, 0);
-  font-family: "titulos";
+  font-family: titulos;
   display: none;
 }
 
@@ -207,14 +207,14 @@
 
 .inicioindex h2 {
   text-align: center;
-  font-family: "bangers";
+  font-family: bangers;
 }
 .inicioindex p {
   text-align: center;
 }
 
 .botoninicio {
-  font-family: "titulos";
+  font-family: titulos;
   font-size: 18px;
   background-color: rgb(243, 243, 243);
   border-radius: 15px;
@@ -284,16 +284,16 @@
 /*PREGUNTAS*/
 .preguntasfrecuentes {
   margin-top: 90px;
-  font-family: "titulazo";
+  font-family: titulazo;
 }
 
 .pregfrecs h2 {
-  font-family: "titulazo";
+  font-family: titulazo;
   color: rgb(0, 0, 97);
 }
 .pregfrecs p {
   font-size: 20px;
-  font-family: "testo";
+  font-family: testo;
   font-weight: 500;
 }
 
