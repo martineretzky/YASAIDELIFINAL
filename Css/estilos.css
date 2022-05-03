@@ -1,18 +1,18 @@
 @font-face {
-  font-family: "titulos";
-  src: url(/fuentes/IndieFlower-Regular.ttf);
+  font-family: titulos;
+  src: url(../fuentes/IndieFlower-Regular.ttf);
 }
 @font-face {
   font-family: "bangers";
-  src: url(/fuentes/Bangers-Regular.ttf);
+  src: url(../fuentes/Bangers-Regular.ttf);
 }
 @font-face {
   font-family: testo;
-  src: url(/fuentes/IndieFlower-Regular.ttf);
+  src: url(../fuentes/IndieFlower-Regular.ttf);
 }
 @font-face {
   font-family: titulazo;
-  src: url(/fuentes/LoveYaLikeASister-Regular.ttf);
+  src: url(../fuentes/LoveYaLikeASister-Regular.ttf);
 }
 /*DECLARACION DE VARIABLES*/
 
